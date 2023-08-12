@@ -1,0 +1,121 @@
+@media (min-width: 900px) {
+  
+    .app {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Make sure the content stretches to at least the full viewport height */
+    }
+    .main{
+        background-image: url(../public/assets/Back\ Ground.svg );
+        height: 95vh;
+        display: flex;
+        background-attachment: fixed;
+    }
+
+    .left-headline h2{
+        color: white;
+        font-size: 40px;
+        font-family: Raleway;
+        margin-left: 5rem;
+    }
+    .intersecting-line {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    }
+
+    .newprice{
+        color: rgb(4, 75, 255);
+        font-weight: bolder;
+        
+    }
+    .pointer{
+        display:flex ;
+        flex-direction: column;
+        
+    }
+
+    .pointer1{
+        display:flex;
+        align-items: center;
+    }
+    .pointer1 > text{
+        margin-left: 2rem;
+        font-size: 20px;
+        color: white;
+    }
+    .pointer > div{
+    
+        margin-left: 5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .pointer>div>img{
+        height: 3rem;
+    }
+
+
+    /*right section of main*/
+
+    .main-right{
+        min-width : 27vw;
+        height: 87%;
+        background-color: white;
+        margin-top: 3rem;
+        margin-left: 24rem;
+        margin-right: 4rem;
+    }
+
+    /*form*/
+
+    .form-opt{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 2em;
+    }
+
+    .form-opt > div > div{
+        height: 40px;
+        width: 40px;
+        background-color: #0096FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+    }
+    .form-opt >div > div > text{
+        color: white;
+        font-size: 20px;
+    }
+    .form-opt >div > text{
+        margin-top:0.3em;
+        margin-left: -0.5em;
+    }
+
+    .form-sub-opt{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Horizontal separation*/
+
+    hr{
+
+        background-color: black;
+        margin: 10px ;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .main{
+        height: 60vh;
+    }
+
+}

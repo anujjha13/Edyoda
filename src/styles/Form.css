@@ -1,0 +1,209 @@
+@media (min-width: 900px) {
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  background-color: white;
+  border-radius: 0.3rem;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc; /* Gray border with 1px width */
+   
+}
+
+#plan-1{
+  background-color: gainsboro;
+}
+
+#plan-2{
+  background-color: rgb(201, 243, 202);
+  border: 2px solid green
+}
+.currentstatus {
+  width: 25%;
+  margin-left: 2rem;
+
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+#status-1 {
+  background-color: red;
+}
+
+#status-2 {
+  background-color: rgb(2, 159, 26);
+}
+.currentstatus > text {
+  color: white;
+  font-size: 7px;
+  font-weight: bolder;
+  margin-left: 8%;
+}
+.plan-bottom {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 4rem;
+  background-color: white;
+  margin-left: 1rem;
+}
+
+.radio.active {
+  background-color: #414141; /* Gray background when active */
+}
+
+.plan-left {
+  width: 75%;
+  display: flex;
+}
+
+.plan-descr > text {
+  margin-left: 1rem;
+  font-size: 15px;
+}
+.plan-total {
+  display: flex;
+  flex-direction: column;
+  margin-top: -0.8rem;
+}
+.plan-total-top > text {
+  font-size: 10px;
+}
+
+.plan-total-top > text > span {
+  font-size: 18px;
+}
+
+.plan-total-bottom {
+  font-size: 12px;
+}
+
+/*horizontal section*/
+
+hr{
+  background-color: black;
+  margin: 10px 2rem;
+  margin-top: -0.2rem;
+  width: 80%;
+}
+
+
+/*susbscription-fee*/
+
+.subscr-fee{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: -0.5rem;
+  width: 80%;
+  height: 30px;
+}
+
+.subscr-fee >div >text{
+  font-size: 12px;
+}
+
+#limited{
+ 
+  background-color:  #fcc6c6;
+}
+.limited-down {
+  display: flex;
+  
+}
+.limited-up{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.3rem;
+}
+.limited-up text{
+  font-size: 15px;
+  margin-left: 1rem;
+  color: red;
+}
+.limited-down text{
+  font-size:14px ;
+  margin-left: 1rem;
+  color: red;
+}
+
+.limitedicon{
+  filter: brightness(0.3) invert(1) sepia(100%) hue-rotate(0deg) saturate(10000%);
+  width:20px;
+  height: 20px;
+  margin-left: 1rem;
+  color: red;
+  
+}
+
+.total{
+  display: flex;
+  width: 80%;
+  margin-left: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.total-descr> text{
+
+  font-size: 15px;
+}
+.total-descr> text >span{
+  font-size: 10px;
+}
+
+/*button*/
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+ 
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.cancel-button,
+.proceed-button {
+  width: 49%; 
+  padding: 10px;
+  text-align: center;
+ 
+  border-radius: 4px;
+}
+
+.cancel-button {
+  background-color: white;
+  color: #ff5555; 
+  border: 1.5px solid #ff1a1a;
+}
+
+.proceed-button {
+  background-color: #47BA68;
+  color: white;
+  border: 1.5px solid #47BA68;
+}
+
+.payment-logo{
+  width: 25%;
+  height: 30px;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+}
